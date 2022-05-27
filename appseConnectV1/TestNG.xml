@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="appseConnectV1">
+
+	<listeners>
+		<listener class-name="com.appseConnect.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="appseConnect Test">
+		 <parameter name="browser" value="chrome" />
+		<!-- <parameter name="browser" value="edge" />-->
+		<!--  <parameter name="browser" value="ie" />-->
+		
+		<classes>
+			<!-- <class name="com.appseConnect.testCases.TC_LoginTest_001" />-->
+			<!-- <class name="com.appseConnect.testCases.TC_LoginTestDDT_002" />-->
+			 <class name="com.appseConnect.testCases.TC_PFListingPageTest_003" />
+
+		</classes>
+
+	</test>
+
+</suite>
