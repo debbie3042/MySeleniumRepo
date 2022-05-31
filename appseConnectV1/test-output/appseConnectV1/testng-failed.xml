@@ -7,13 +7,13 @@
   <test thread-count="5" name="appseConnect Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.appseConnect.testCases.TC_LoginTestDDT_002">
+      <class name="com.appseConnect.testCases.TC_PFListingPageTest_003">
         <methods>
-          <include name="loginTestDDT" invocation-numbers="1 4"/>
+          <include name="checkPFListingPage"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.appseConnect.testCases.TC_LoginTestDDT_002 -->
+      </class> <!-- com.appseConnect.testCases.TC_PFListingPageTest_003 -->
     </classes>
   </test> <!-- appseConnect Test(failed) -->
 </suite> <!-- Failed suite [appseConnectV1] -->

@@ -20,17 +20,17 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Provide the Username by reading the Parameter from Base Class and calling the Method from LoginPage PageObject
 		lp.setUserName(Username);
 		
-		System.out.println("Provided Username: " + Username);
+		logger.info("Provided Username: " + Username);
 		
 		//Provide the Password by reading the Parameter from Base Class and calling the Method from LoginPage PageObject
 		lp.setPassword(Password);
 		
-		System.out.println("Provided Password: " + Password);
+		logger.info("Provided Password: " + Password);
 		
 		//Click on the SignIn Button by reading the Parameter from Base Class and calling the Method from LoginPage PageObject
 		lp.clickSignIn();
 		
-		System.out.println("Clicked on the Sign in button");
+		logger.info("Clicked on the Sign in button");
 		
 		//wait for 3 seconds
 		Thread.sleep(3000);
@@ -42,20 +42,20 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Click on the Designer option in Menu by calling the Method from ProcessFlowListingPage PageObject
 		pfListingPage.clickMenuDesigner();
 		
-		System.out.println("Clicked on the Designer option in Menu");
+		logger.info("Clicked on the Designer option in Menu");
 		
 		Thread.sleep(3000);
 
-		System.out.println("Waited for 3 Seconds");
+		logger.info("Waited for 3 Seconds");
 		
 		//Click on the ProcessFlow option in Menu by calling the Method from ProcessFlowListingPage PageObject
 		pfListingPage.clickMenuProcessFlow();
 		
-		System.out.println("Clicked on the ProcessFlow option in Menu");
+		logger.info("Clicked on the ProcessFlow option in Menu");
 		
 		Thread.sleep(3000);
 		
-		System.out.println("Waited for 3 Seconds");
+		logger.info("Waited for 3 Seconds");
 		
 		//Boolean value to store the output of Method 'isPresentTitleProcessFlows' defined in ProcessFlowListingPage PageObject
 		boolean resTitlePf = pfListingPage.isPresentTitleProcessFlows();
@@ -65,29 +65,43 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderHeadingProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolHeadPf = pfListingPage.isPresentFolderHeadingProcessFlow();
 		
+		System.out.println("The value returned from Method isPresentFolderHeadingProcessFlow is: " + resFolHeadPf);
+		
 		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolNamePf = pfListingPage.isPresentFolderNameProcessFlow();
 		
-		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
+		System.out.println("The value returned from Method isPresentFolderNameProcessFlow is: " + resFolNamePf);
+		
+		//Boolean value to store the output of Method 'isPresentTextNoPfFound' defined in ProcessFlowListingPage PageObject
 		boolean resTextNoPfFound = pfListingPage.isPresentTextNoPfFound();
 		
+		System.out.println("The value returned from Method isPresentTextNoPfFound is: " + resTextNoPfFound);
 		
-		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
+		
+		//Boolean value to store the output of Method 'isPresentBtnCreateAPf' defined in ProcessFlowListingPage PageObject
 		boolean resButtonCreateAPf = pfListingPage.isPresentBtnCreateAPf();
 		
+		System.out.println("The value returned from Method isPresentBtnCreateAPf is: " + resButtonCreateAPf);
 		
-		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
+		
+		//Boolean value to store the output of Method 'isPresentFolderNameInstalledPf' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameInstalledPf = pfListingPage.isPresentFolderNameInstalledPf();
 		
+		System.out.println("The value returned from Method isPresentFolderNameInstalledPf is: " + resFolNameInstalledPf);
 		
-		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
+		
+		//Boolean value to store the output of Method 'isPresentFolderNamePackageLib' defined in ProcessFlowListingPage PageObject
 		boolean resFolNamePackageLib = pfListingPage.isPresentFolderNamePackageLib();
+		
+		System.out.println("The value returned from Method isPresentFolderNamePackageLib is: " + resFolNamePackageLib);
+		
 				
-				
-		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
+		//Boolean value to store the output of Method 'isPresentFolderNameTrash' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameTrash = pfListingPage.isPresentFolderNameTrash();
 		
+		System.out.println("The value returned from Method isPresentFolderNameTrash is: " + resFolNameTrash);
 		
+		logger.info("Validation Started....");
 		
 		//Checking that the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
 		if(resTitlePf == true)

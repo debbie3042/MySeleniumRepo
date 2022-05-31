@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appseConnect.testCases.TC_LoginTestDDT_002">
+      <class name="com.appseConnect.testCases.TC_PFListingPageTest_003">
         <methods>
-          <include name="loginTestDDT"/>
+          <include name="checkPFListingPage"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.appseConnect.testCases.TC_LoginTestDDT_002 -->
+      </class> <!-- com.appseConnect.testCases.TC_PFListingPageTest_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

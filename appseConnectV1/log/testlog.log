@@ -206,3 +206,40 @@
 2022-05-23 22:04:21,178 - appseConnect -INFO - The SignIn button has been clicked.
 2022-05-23 22:04:21,230 - appseConnect -INFO - The Error Message is: The user name or password provided is incorrect.
 2022-05-23 22:04:21,230 - appseConnect -INFO - The Error Message has been displayed
+2022-05-31 17:03:24,096 - appseConnect -INFO - The Username has been provided.
+2022-05-31 17:03:24,236 - appseConnect -INFO - The Password has been provided.
+2022-05-31 17:03:34,347 - appseConnect -INFO - The SignIn button has been clicked.
+2022-05-31 17:05:18,396 - appseConnect -INFO - The Username has been provided.
+2022-05-31 17:05:18,569 - appseConnect -INFO - The Password has been provided.
+2022-05-31 17:05:45,356 - appseConnect -INFO - The SignIn button has been clicked.
+2022-05-31 17:05:45,370 - appseConnect -INFO - Assertion is True and Login Test has Passed.
+2022-05-31 17:27:55,818 - appseConnect -INFO - The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
+2022-05-31 17:27:55,826 - appseConnect -INFO - The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 17:27:55,827 - appseConnect -INFO - The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 17:27:55,828 - appseConnect -INFO - The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.
+2022-05-31 17:27:55,829 - appseConnect -INFO - The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.
+2022-05-31 17:27:55,830 - appseConnect -INFO - The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 17:27:55,832 - appseConnect -INFO - The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.
+2022-05-31 17:27:55,832 - appseConnect -INFO - The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.
+2022-05-31 19:40:28,526 - appseConnect -INFO - Provided Username: tulip.b@yopmail.com
+2022-05-31 19:40:28,599 - appseConnect -INFO - Provided Password: abcd.1234
+2022-05-31 19:40:43,090 - appseConnect -INFO - Clicked on the Sign in button
+2022-05-31 19:40:46,170 - appseConnect -INFO - Clicked on the Designer option in Menu
+2022-05-31 19:40:49,172 - appseConnect -INFO - Waited for 3 Seconds
+2022-05-31 19:40:49,255 - appseConnect -INFO - Clicked on the ProcessFlow option in Menu
+2022-05-31 19:40:52,269 - appseConnect -INFO - Waited for 3 Seconds
+2022-05-31 19:43:27,185 - appseConnect -INFO - Provided Username: tulip.b@yopmail.com
+2022-05-31 19:43:27,255 - appseConnect -INFO - Provided Password: abcd.1234
+2022-05-31 19:43:39,703 - appseConnect -INFO - Clicked on the Sign in button
+2022-05-31 19:43:42,772 - appseConnect -INFO - Clicked on the Designer option in Menu
+2022-05-31 19:43:45,782 - appseConnect -INFO - Waited for 3 Seconds
+2022-05-31 19:43:45,863 - appseConnect -INFO - Clicked on the ProcessFlow option in Menu
+2022-05-31 19:43:48,870 - appseConnect -INFO - Waited for 3 Seconds
+2022-05-31 19:43:49,108 - appseConnect -INFO - The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
+2022-05-31 19:43:49,108 - appseConnect -INFO - The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 19:43:49,108 - appseConnect -INFO - The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 19:43:49,108 - appseConnect -INFO - The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.
+2022-05-31 19:43:49,109 - appseConnect -INFO - The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.
+2022-05-31 19:43:49,109 - appseConnect -INFO - The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.
+2022-05-31 19:43:49,109 - appseConnect -INFO - The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.
+2022-05-31 19:43:49,109 - appseConnect -INFO - The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.
