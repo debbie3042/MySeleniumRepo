@@ -20,10 +20,10 @@ public class TC_LoginTestDDT_002 extends BaseClass
 		LoginPage lp = new LoginPage(driver);
 		
 		lp.setUserName(username);
-		logger.info("The Username has been provided.");
+		logger.info("The Username has been provided." + username);
 		
 		lp.setPassword(password);
-		logger.info("The Password has been provided.");
+		logger.info("The Password has been provided." + password);
 		
 		lp.clickSignIn();
 		logger.info("The SignIn button has been clicked.");
@@ -35,15 +35,17 @@ public class TC_LoginTestDDT_002 extends BaseClass
 			//Calling Capture Screenshot Method defined in Base Class
 			captureScreenshot(driver, "loginTestDDT");
 			
+			logger.info("Screenshot Captured.");
+			
 			Assert.assertTrue(false);
-			logger.info("The Assertion is False and The Login Test has Failed.");
+			logger.info("The Assertion is False and the TC_LoginTestDDT_002 has Failed.");
 			
 		}
 		
 		else
 		{
 			Assert.assertTrue(true);
-			logger.info("The Assertion is True and the Login Test has Passed.");
+			logger.info("The Assertion is True and the TC_LoginTestDDT_002 has Passed.");
 			
 			lp.clickLogOut();
 			logger.info("The Log Out button has been clicked.");
@@ -64,14 +66,14 @@ public class TC_LoginTestDDT_002 extends BaseClass
 		
 			if(actualMsg.equals(errorMsg))
 				{
-					logger.info("The Error Message is: " + errorMsg);
+					logger.info("The Error Message is: " + actualMsg);
 				}
 		
-			/*else
+			else
 				{
-					logger.info("Error Message has not been displayed");
+					logger.info("The Error Message is: " + actualMsg);
 				}
-			*/
+			
 			return true;
 		}
 		

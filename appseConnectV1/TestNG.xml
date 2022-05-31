@@ -14,8 +14,8 @@
 		<!--  <parameter name="browser" value="ie" />-->
 		
 		<classes>
-			<!-- <class name="com.appseConnect.testCases.TC_LoginTest_001" />-->
-			<!-- <class name="com.appseConnect.testCases.TC_LoginTestDDT_002" />-->
+			 <class name="com.appseConnect.testCases.TC_LoginTest_001" />
+			 <class name="com.appseConnect.testCases.TC_LoginTestDDT_002" />
 			 <class name="com.appseConnect.testCases.TC_PFListingPageTest_003" />
 
 		</classes>

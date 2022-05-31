@@ -20,10 +20,10 @@ public class TC_LoginTest_001 extends BaseClass
 		LoginPage lp = new LoginPage(driver);
 		
 		lp.setUserName(Username);
-		logger.info("The Username has been provided.");
+		logger.info("The Username has been provided. " + Username);
 		
 		lp.setPassword(Password);
-		logger.info("The Password has been provided.");
+		logger.info("The Password has been provided. " + Password);
 		
 		lp.clickSignIn();
 		logger.info("The SignIn button has been clicked.");
@@ -31,16 +31,16 @@ public class TC_LoginTest_001 extends BaseClass
 		if(driver.getTitle().isEmpty())
 		{
 			Assert.assertTrue(true);
-			logger.info("Assertion is True and Login Test has Passed.");
+			logger.info("Assertion is True and TC_LoginTest_001 has Passed.");
 		}
 		
 		else
 		{
 			//Calling Capture Screenshot Method defined in Base Class
-			captureScreenshot(driver, "loginTest");
+			captureScreenshot(driver, "TC_LoginTest_001");
 			
 			Assert.assertTrue(false);
-			logger.info("Assertion is False and Login Test has Failed.");
+			logger.info("Assertion is False and TC_LoginTest_001 has Failed.");
 			
 		}
 		

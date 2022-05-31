@@ -62,20 +62,36 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		
 		System.out.println("The value returned from Method isPresentTitleProcessFlows is: " + resTitlePf);
 		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
+		
 		//Boolean value to store the output of Method 'isPresentFolderHeadingProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolHeadPf = pfListingPage.isPresentFolderHeadingProcessFlow();
 		
 		System.out.println("The value returned from Method isPresentFolderHeadingProcessFlow is: " + resFolHeadPf);
+		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
 		
 		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolNamePf = pfListingPage.isPresentFolderNameProcessFlow();
 		
 		System.out.println("The value returned from Method isPresentFolderNameProcessFlow is: " + resFolNamePf);
 		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
+		
 		//Boolean value to store the output of Method 'isPresentTextNoPfFound' defined in ProcessFlowListingPage PageObject
 		boolean resTextNoPfFound = pfListingPage.isPresentTextNoPfFound();
 		
 		System.out.println("The value returned from Method isPresentTextNoPfFound is: " + resTextNoPfFound);
+		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
 		
 		
 		//Boolean value to store the output of Method 'isPresentBtnCreateAPf' defined in ProcessFlowListingPage PageObject
@@ -83,11 +99,19 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		
 		System.out.println("The value returned from Method isPresentBtnCreateAPf is: " + resButtonCreateAPf);
 		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
+		
 		
 		//Boolean value to store the output of Method 'isPresentFolderNameInstalledPf' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameInstalledPf = pfListingPage.isPresentFolderNameInstalledPf();
 		
 		System.out.println("The value returned from Method isPresentFolderNameInstalledPf is: " + resFolNameInstalledPf);
+		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
 		
 		
 		//Boolean value to store the output of Method 'isPresentFolderNamePackageLib' defined in ProcessFlowListingPage PageObject
@@ -95,11 +119,19 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		
 		System.out.println("The value returned from Method isPresentFolderNamePackageLib is: " + resFolNamePackageLib);
 		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
+		
 				
 		//Boolean value to store the output of Method 'isPresentFolderNameTrash' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameTrash = pfListingPage.isPresentFolderNameTrash();
 		
 		System.out.println("The value returned from Method isPresentFolderNameTrash is: " + resFolNameTrash);
+		
+		Thread.sleep(3000);
+
+		logger.info("Waited for 3 Seconds");
 		
 		logger.info("Validation Started....");
 		
