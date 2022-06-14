@@ -2,6 +2,7 @@ package com.appseConnect.testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -23,7 +24,7 @@ public class TC_LoginTest_001 extends BaseClass
 		logger.info("The Username has been provided. " + Username);
 		
 		lp.setPassword(Password);
-		logger.info("The Password has been provided. " + Password);
+		logger.info("The Password has been provided: " + Password);
 		
 		lp.clickSignIn();
 		logger.info("The SignIn button has been clicked.");
@@ -36,11 +37,16 @@ public class TC_LoginTest_001 extends BaseClass
 		
 		else
 		{
+			
+			String errorMsg = driver.findElement(By.id("loginSpan")).getText();
+			logger.info(errorMsg);
+			
 			//Calling Capture Screenshot Method defined in Base Class
 			captureScreenshot(driver, "TC_LoginTest_001");
 			
+			logger.info("The Assertion is False and the TC_LoginTest_001 has Failed.");
+			
 			Assert.assertTrue(false);
-			logger.info("Assertion is False and TC_LoginTest_001 has Failed.");
 			
 		}
 		

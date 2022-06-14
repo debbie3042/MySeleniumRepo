@@ -35,7 +35,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//wait for 3 seconds
 		Thread.sleep(3000);
 		
-		System.out.println("Waited for 3 Seconds");
+		logger.info("Waited for 3 Seconds");
 		
 		ProcessFlowListingPage pfListingPage = new ProcessFlowListingPage(driver);
 		
@@ -60,7 +60,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentTitleProcessFlows' defined in ProcessFlowListingPage PageObject
 		boolean resTitlePf = pfListingPage.isPresentTitleProcessFlows();
 		
-		System.out.println("The value returned from Method isPresentTitleProcessFlows is: " + resTitlePf);
+		logger.info("The value returned from Method isPresentTitleProcessFlows is: " + resTitlePf);
 		
 		Thread.sleep(3000);
 
@@ -69,7 +69,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderHeadingProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolHeadPf = pfListingPage.isPresentFolderHeadingProcessFlow();
 		
-		System.out.println("The value returned from Method isPresentFolderHeadingProcessFlow is: " + resFolHeadPf);
+		logger.info("The value returned from Method isPresentFolderHeadingProcessFlow is: " + resFolHeadPf);
 		
 		Thread.sleep(3000);
 
@@ -78,7 +78,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderNameProcessFlow' defined in ProcessFlowListingPage PageObject
 		boolean resFolNamePf = pfListingPage.isPresentFolderNameProcessFlow();
 		
-		System.out.println("The value returned from Method isPresentFolderNameProcessFlow is: " + resFolNamePf);
+		logger.info("The value returned from Method isPresentFolderNameProcessFlow is: " + resFolNamePf);
 		
 		Thread.sleep(3000);
 
@@ -87,7 +87,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentTextNoPfFound' defined in ProcessFlowListingPage PageObject
 		boolean resTextNoPfFound = pfListingPage.isPresentTextNoPfFound();
 		
-		System.out.println("The value returned from Method isPresentTextNoPfFound is: " + resTextNoPfFound);
+		logger.info("The value returned from Method isPresentTextNoPfFound is: " + resTextNoPfFound);
 		
 		Thread.sleep(3000);
 
@@ -97,7 +97,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentBtnCreateAPf' defined in ProcessFlowListingPage PageObject
 		boolean resButtonCreateAPf = pfListingPage.isPresentBtnCreateAPf();
 		
-		System.out.println("The value returned from Method isPresentBtnCreateAPf is: " + resButtonCreateAPf);
+		logger.info("The value returned from Method isPresentBtnCreateAPf is: " + resButtonCreateAPf);
 		
 		Thread.sleep(3000);
 
@@ -107,7 +107,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderNameInstalledPf' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameInstalledPf = pfListingPage.isPresentFolderNameInstalledPf();
 		
-		System.out.println("The value returned from Method isPresentFolderNameInstalledPf is: " + resFolNameInstalledPf);
+		logger.info("The value returned from Method isPresentFolderNameInstalledPf is: " + resFolNameInstalledPf);
 		
 		Thread.sleep(3000);
 
@@ -117,7 +117,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderNamePackageLib' defined in ProcessFlowListingPage PageObject
 		boolean resFolNamePackageLib = pfListingPage.isPresentFolderNamePackageLib();
 		
-		System.out.println("The value returned from Method isPresentFolderNamePackageLib is: " + resFolNamePackageLib);
+		logger.info("The value returned from Method isPresentFolderNamePackageLib is: " + resFolNamePackageLib);
 		
 		Thread.sleep(3000);
 
@@ -127,7 +127,7 @@ public class TC_PFListingPageTest_003 extends BaseClass
 		//Boolean value to store the output of Method 'isPresentFolderNameTrash' defined in ProcessFlowListingPage PageObject
 		boolean resFolNameTrash = pfListingPage.isPresentFolderNameTrash();
 		
-		System.out.println("The value returned from Method isPresentFolderNameTrash is: " + resFolNameTrash);
+		logger.info("The value returned from Method isPresentFolderNameTrash is: " + resFolNameTrash);
 		
 		Thread.sleep(3000);
 
@@ -142,6 +142,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 			
 			logger.info("The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		else
@@ -153,6 +156,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 			
 			logger.info("The Assertion is False and the Title text 'ProcessFlows' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		
@@ -163,6 +169,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 			
 			logger.info("The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		else
@@ -174,6 +183,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 			
 			logger.info("The Assertion is False and the Folder Heading 'Process Flow' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		
@@ -185,6 +197,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 			
 			logger.info("The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		else
@@ -196,6 +211,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 			
 			logger.info("The Assertion is False and the Folder named 'Process Flow' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		
@@ -207,6 +225,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 			
 			logger.info("The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		else
@@ -218,6 +239,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 			
 			logger.info("The Assertion is False and the text 'No Process Flow found' is NOT displayed for the main Process Flow Folder.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		
@@ -229,6 +253,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 
 			logger.info("The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 
 		else
@@ -240,6 +267,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 
 			logger.info("The Assertion is False and the Button 'Create a Process Flow' is NOT displayed for the main Process Flow Folder.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
 		
@@ -251,6 +281,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 
 			logger.info("The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 
 		else
@@ -262,6 +295,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 
 			logger.info("The Assertion is False and the Folder named 'Installed Process Flow' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 				
 				
@@ -273,6 +309,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 
 			logger.info("The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 
 		else
@@ -284,6 +323,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 
 			logger.info("The Assertion is False and the Folder named 'Package Library' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 				
 				
@@ -295,6 +337,9 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(true);
 
 			logger.info("The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 
 		else
@@ -306,9 +351,16 @@ public class TC_PFListingPageTest_003 extends BaseClass
 			Assert.assertTrue(false);
 
 			logger.info("The Assertion is False and the Folder named 'Trash' is NOT present in the ProcessFlow Listing Page.");
+			
+			Thread.sleep(3000);
+			logger.info("Waited for 3 Seconds");
 		}
 		
+		lp.clickLogOut();
+		logger.info("The Log Out button has been clicked.");
 		
+		Thread.sleep(5000);
+		logger.info("Waited for 5 Seconds");
 		
 	}
 

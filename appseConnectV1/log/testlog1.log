@@ -1,72 +1,199 @@
-2022-05-31 20:36:45,176 [main] INFO appseConnect - The Username has been provided.tulip.b@yopmail.com
-2022-05-31 20:36:45,276 [main] INFO appseConnect - The Password has been provided.abcd.1234
-2022-05-31 20:36:52,519 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:36:52,529 [main] INFO appseConnect - Assertion is True and TC_LoginTest_001 has Passed.
-2022-05-31 20:37:01,923 [main] INFO appseConnect - The Username has been provided.debashree.p@insync.co.in
-2022-05-31 20:37:02,027 [main] INFO appseConnect - The Password has been provided.Efgh.1234
-2022-05-31 20:37:22,482 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:22,507 [main] INFO appseConnect - The Assertion is True and the TC_LoginTestDDT_002 has Passed.
-2022-05-31 20:37:22,678 [main] INFO appseConnect - The Log Out button has been clicked.
-2022-05-31 20:37:24,355 [main] INFO appseConnect - The Username has been provided.debashree.p@insync.co.in
-2022-05-31 20:37:24,426 [main] INFO appseConnect - The Password has been provided.Efgh.1234xxxx
-2022-05-31 20:37:25,184 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:25,207 [main] INFO appseConnect - The Error Message is: The user name or password provided is incorrect.
-2022-05-31 20:37:25,207 [main] INFO appseConnect - The Error Message has been displayed
-2022-05-31 20:37:25,587 [main] INFO appseConnect - Screenshot Captured.
-2022-05-31 20:37:25,672 [main] INFO appseConnect - The Username has been provided.rio1@yopmail.com
-2022-05-31 20:37:25,744 [main] INFO appseConnect - The Password has been provided.abcd.1234
-2022-05-31 20:37:30,601 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:30,622 [main] INFO appseConnect - The Assertion is True and the TC_LoginTestDDT_002 has Passed.
-2022-05-31 20:37:30,769 [main] INFO appseConnect - The Log Out button has been clicked.
-2022-05-31 20:37:33,017 [main] INFO appseConnect - The Username has been provided.debashree.p@insync.co.in
-2022-05-31 20:37:33,082 [main] INFO appseConnect - The Password has been provided.Efgh.1234
-2022-05-31 20:37:37,678 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:37,696 [main] INFO appseConnect - The Assertion is True and the TC_LoginTestDDT_002 has Passed.
-2022-05-31 20:37:38,375 [main] INFO appseConnect - The Log Out button has been clicked.
-2022-05-31 20:37:39,401 [main] INFO appseConnect - The Username has been provided.
-2022-05-31 20:37:39,462 [main] INFO appseConnect - The Password has been provided.
-2022-05-31 20:37:39,520 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:39,559 [main] INFO appseConnect - The Error Message is: Please enter the password for your APPSeCONNECT account
-2022-05-31 20:37:39,559 [main] INFO appseConnect - The Error Message has been displayed
-2022-05-31 20:37:40,022 [main] INFO appseConnect - Screenshot Captured.
-2022-05-31 20:37:40,160 [main] INFO appseConnect - The Username has been provided.debashree.p@insync.co.inxxxxxxx
-2022-05-31 20:37:40,230 [main] INFO appseConnect - The Password has been provided.Efgh.1234
-2022-05-31 20:37:41,462 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:41,486 [main] INFO appseConnect - The Error Message is: The user name or password provided is incorrect.
-2022-05-31 20:37:41,486 [main] INFO appseConnect - The Error Message has been displayed
-2022-05-31 20:37:41,830 [main] INFO appseConnect - Screenshot Captured.
-2022-05-31 20:37:41,927 [main] INFO appseConnect - The Username has been provided.rio1@yopmail.com
-2022-05-31 20:37:41,995 [main] INFO appseConnect - The Password has been provided.
-2022-05-31 20:37:42,064 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:42,111 [main] INFO appseConnect - The Error Message is: Please enter the password for your APPSeCONNECT account
-2022-05-31 20:37:42,111 [main] INFO appseConnect - The Error Message has been displayed
-2022-05-31 20:37:42,488 [main] INFO appseConnect - Screenshot Captured.
-2022-05-31 20:37:42,534 [main] INFO appseConnect - The Username has been provided.
-2022-05-31 20:37:42,613 [main] INFO appseConnect - The Password has been provided.abcd.1234
-2022-05-31 20:37:47,677 [main] INFO appseConnect - The SignIn button has been clicked.
-2022-05-31 20:37:47,698 [main] INFO appseConnect - The Assertion is True and the TC_LoginTestDDT_002 has Passed.
-2022-05-31 20:37:47,862 [main] INFO appseConnect - The Log Out button has been clicked.
-2022-05-31 20:37:55,960 [main] INFO appseConnect - Provided Username: tulip.b@yopmail.com
-2022-05-31 20:37:56,056 [main] INFO appseConnect - Provided Password: abcd.1234
-2022-05-31 20:38:03,546 [main] INFO appseConnect - Clicked on the Sign in button
-2022-05-31 20:38:06,611 [main] INFO appseConnect - Clicked on the Designer option in Menu
-2022-05-31 20:38:09,627 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:09,721 [main] INFO appseConnect - Clicked on the ProcessFlow option in Menu
-2022-05-31 20:38:12,729 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:15,778 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:18,818 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:21,849 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:24,875 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:27,910 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:30,949 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:33,981 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:37,012 [main] INFO appseConnect - Waited for 3 Seconds
-2022-05-31 20:38:37,012 [main] INFO appseConnect - Validation Started....
-2022-05-31 20:38:37,012 [main] INFO appseConnect - The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
-2022-05-31 20:38:37,012 [main] INFO appseConnect - The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.
-2022-05-31 20:38:37,012 [main] INFO appseConnect - The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.
-2022-05-31 20:38:37,012 [main] INFO appseConnect - The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.
-2022-05-31 20:38:37,013 [main] INFO appseConnect - The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.
-2022-05-31 20:38:37,013 [main] INFO appseConnect - The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.
-2022-05-31 20:38:37,013 [main] INFO appseConnect - The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.
-2022-05-31 20:38:37,013 [main] INFO appseConnect - The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.
+2022-06-06 20:03:14,785 [main] INFO appseConnect - Provided Username: tulip.b@yopmail.com
+2022-06-06 20:03:14,850 [main] INFO appseConnect - Provided Password: abcd.1234
+2022-06-06 20:03:26,070 [main] INFO appseConnect - Clicked on the Sign in button
+2022-06-06 20:03:29,075 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:29,131 [main] INFO appseConnect - Clicked on the Designer option in Menu
+2022-06-06 20:03:32,135 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:32,244 [main] INFO appseConnect - Clicked on the ProcessFlow option in Menu
+2022-06-06 20:03:35,258 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:36,497 [main] INFO appseConnect - The value returned from Method isPresentTitleProcessFlows is: true
+2022-06-06 20:03:39,500 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:39,583 [main] INFO appseConnect - The value returned from Method isPresentFolderHeadingProcessFlow is: true
+2022-06-06 20:03:42,596 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:42,669 [main] INFO appseConnect - The value returned from Method isPresentFolderNameProcessFlow is: true
+2022-06-06 20:03:45,682 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:45,725 [main] INFO appseConnect - The value returned from Method isPresentTextNoPfFound is: true
+2022-06-06 20:03:48,738 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:48,785 [main] INFO appseConnect - The value returned from Method isPresentBtnCreateAPf is: true
+2022-06-06 20:03:51,794 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:51,858 [main] INFO appseConnect - The value returned from Method isPresentFolderNameInstalledPf is: true
+2022-06-06 20:03:54,874 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:54,898 [main] INFO appseConnect - The value returned from Method isPresentFolderNamePackageLib is: true
+2022-06-06 20:03:57,902 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:03:57,948 [main] INFO appseConnect - The value returned from Method isPresentFolderNameTrash is: true
+2022-06-06 20:04:00,959 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:00,960 [main] INFO appseConnect - Validation Started....
+2022-06-06 20:04:00,965 [main] INFO appseConnect - The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:03,968 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:03,969 [main] INFO appseConnect - The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:06,973 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:06,974 [main] INFO appseConnect - The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:09,988 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:09,989 [main] INFO appseConnect - The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.
+2022-06-06 20:04:13,003 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:13,004 [main] INFO appseConnect - The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.
+2022-06-06 20:04:16,016 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:16,017 [main] INFO appseConnect - The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:19,027 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:19,028 [main] INFO appseConnect - The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:22,039 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:22,040 [main] INFO appseConnect - The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.
+2022-06-06 20:04:25,054 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:04:25,188 [main] INFO appseConnect - The Log Out button has been clicked.
+2022-06-06 20:06:50,773 [main] INFO appseConnect - Provided Username: tulip.b@yopmail.com
+2022-06-06 20:06:50,855 [main] INFO appseConnect - Provided Password: abcd.1234
+2022-06-06 20:06:59,014 [main] INFO appseConnect - Clicked on the Sign in button
+2022-06-06 20:07:02,029 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:02,093 [main] INFO appseConnect - Clicked on the Designer option in Menu
+2022-06-06 20:07:05,107 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:05,186 [main] INFO appseConnect - Clicked on the ProcessFlow option in Menu
+2022-06-06 20:07:08,196 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:08,283 [main] INFO appseConnect - The value returned from Method isPresentTitleProcessFlows is: true
+2022-06-06 20:07:11,297 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:11,367 [main] INFO appseConnect - The value returned from Method isPresentFolderHeadingProcessFlow is: true
+2022-06-06 20:07:14,371 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:14,446 [main] INFO appseConnect - The value returned from Method isPresentFolderNameProcessFlow is: true
+2022-06-06 20:07:17,462 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:17,542 [main] INFO appseConnect - The value returned from Method isPresentTextNoPfFound is: true
+2022-06-06 20:07:20,554 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:20,636 [main] INFO appseConnect - The value returned from Method isPresentBtnCreateAPf is: true
+2022-06-06 20:07:23,650 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:23,691 [main] INFO appseConnect - The value returned from Method isPresentFolderNameInstalledPf is: true
+2022-06-06 20:07:26,693 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:26,737 [main] INFO appseConnect - The value returned from Method isPresentFolderNamePackageLib is: true
+2022-06-06 20:07:29,744 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:29,818 [main] INFO appseConnect - The value returned from Method isPresentFolderNameTrash is: true
+2022-06-06 20:07:32,820 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:32,821 [main] INFO appseConnect - Validation Started....
+2022-06-06 20:07:32,826 [main] INFO appseConnect - The Assertion is True and the Title text 'ProcessFlows' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:35,836 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:35,837 [main] INFO appseConnect - The Assertion is True and the Folder Heading 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:38,849 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:38,851 [main] INFO appseConnect - The Assertion is True and the Folder named 'Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:41,853 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:41,854 [main] INFO appseConnect - The Assertion is True and the text 'No Process Flow found' is displayed for the main Process Flow Folder.
+2022-06-06 20:07:44,861 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:44,862 [main] INFO appseConnect - The Assertion is True and the Button 'Create a Process Flow' is displayed for the main Process Flow Folder.
+2022-06-06 20:07:47,863 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:47,864 [main] INFO appseConnect - The Assertion is True and the Folder named 'Installed Process Flow' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:50,876 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:50,878 [main] INFO appseConnect - The Assertion is True and the Folder named 'Package Library' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:53,888 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:53,889 [main] INFO appseConnect - The Assertion is True and the Folder named 'Trash' is present in the ProcessFlow Listing Page.
+2022-06-06 20:07:56,905 [main] INFO appseConnect - Waited for 3 Seconds
+2022-06-06 20:07:57,127 [main] INFO appseConnect - The Log Out button has been clicked.
+2022-06-06 20:08:02,143 [main] INFO appseConnect - Waited for 5 Seconds
+2022-06-13 18:46:27,372 [main] INFO appseConnect - Validation Started.....
+2022-06-13 18:47:33,560 [main] INFO appseConnect - Validation Started.....
+2022-06-13 19:25:14,604 [main] INFO appseConnect - Validation Started.....
+2022-06-13 19:42:50,346 [main] INFO appseConnect - Validation Started.....
+2022-06-13 19:42:50,440 [main] INFO appseConnect - Assertion is True and TC_NewCustomerSignUpTest_005 has Passed.
+2022-06-13 20:21:08,504 [main] INFO appseConnect - The New Customer Name provided is: OuhN3l1f
+2022-06-13 20:21:08,592 [main] INFO appseConnect - The New Customer Org Name provided is: OuhN3l1fCorporation
+2022-06-13 20:21:08,682 [main] INFO appseConnect - The New Customer Email provided is: OuhN3l1f@yopmail.com
+2022-06-13 20:21:08,818 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 20:21:11,825 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 20:21:11,898 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 20:24:48,239 [main] INFO appseConnect - The New Customer Name provided is: Ms9Wp1yp
+2022-06-13 20:24:48,324 [main] INFO appseConnect - The New Customer Org Name provided is: Ms9Wp1ypCorporation
+2022-06-13 20:24:48,404 [main] INFO appseConnect - The New Customer Email provided is: Ms9Wp1yp@yopmail.com
+2022-06-13 20:24:48,541 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 20:24:51,553 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 20:24:51,616 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:06:13,020 [main] INFO appseConnect - The New Customer Name provided is: R2qY0bqS
+2022-06-13 21:06:13,096 [main] INFO appseConnect - The New Customer Org Name provided is: R2qY0bqS Inc.
+2022-06-13 21:06:13,177 [main] INFO appseConnect - The New Customer Email provided is: R2qY0bqS@yopmail.com
+2022-06-13 21:06:13,321 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:06:16,322 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:06:16,387 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:06:16,436 [main] INFO appseConnect - New Chrome tab has been opened.
+2022-06-13 21:08:37,603 [main] INFO appseConnect - The New Customer Name provided is: FuGNJsN7
+2022-06-13 21:08:37,677 [main] INFO appseConnect - The New Customer Org Name provided is: FuGNJsN7 Inc.
+2022-06-13 21:08:37,755 [main] INFO appseConnect - The New Customer Email provided is: FuGNJsN7@yopmail.com
+2022-06-13 21:08:37,892 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:08:40,899 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:08:40,965 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:11:07,848 [main] INFO appseConnect - The New Customer Name provided is: byxc8Tgz
+2022-06-13 21:11:07,930 [main] INFO appseConnect - The New Customer Org Name provided is: byxc8Tgz Inc.
+2022-06-13 21:11:08,009 [main] INFO appseConnect - The New Customer Email provided is: byxc8Tgz@yopmail.com
+2022-06-13 21:11:08,144 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:11:11,146 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:11:11,213 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:32:51,615 [main] INFO appseConnect - The New Customer Name provided is: hFD18Md9
+2022-06-13 21:32:51,693 [main] INFO appseConnect - The New Customer Org Name provided is: hFD18Md9 Inc.
+2022-06-13 21:32:51,769 [main] INFO appseConnect - The New Customer Email provided is: hFD18Md9@yopmail.com
+2022-06-13 21:32:51,914 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:32:54,917 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:32:54,986 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:39:33,420 [main] INFO appseConnect - The New Customer Name provided is: ARlMYxFl
+2022-06-13 21:39:33,503 [main] INFO appseConnect - The New Customer Org Name provided is: ARlMYxFl Inc.
+2022-06-13 21:39:33,592 [main] INFO appseConnect - The New Customer Email provided is: ARlMYxFl@yopmail.com
+2022-06-13 21:39:33,729 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:39:36,734 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:39:36,797 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:45:00,397 [main] INFO appseConnect - The New Customer Name provided is: mzWVGsre
+2022-06-13 21:45:00,476 [main] INFO appseConnect - The New Customer Org Name provided is: mzWVGsre Inc.
+2022-06-13 21:45:00,556 [main] INFO appseConnect - The New Customer Email provided is: mzWVGsre@yopmail.com
+2022-06-13 21:45:00,704 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:45:03,719 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:45:03,793 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 21:52:54,710 [main] INFO appseConnect - The New Customer Name provided is: Jz7168Sx
+2022-06-13 21:52:54,790 [main] INFO appseConnect - The New Customer Org Name provided is: Jz7168Sx Inc.
+2022-06-13 21:52:54,875 [main] INFO appseConnect - The New Customer Email provided is: Jz7168Sx@yopmail.com
+2022-06-13 21:52:55,014 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 21:52:58,028 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 21:52:58,095 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:08:28,186 [main] INFO appseConnect - The New Customer Name provided is: wOUmbVf4
+2022-06-13 22:08:28,273 [main] INFO appseConnect - The New Customer Org Name provided is: wOUmbVf4 Inc.
+2022-06-13 22:08:28,359 [main] INFO appseConnect - The New Customer Email provided is: wOUmbVf4@yopmail.com
+2022-06-13 22:08:28,496 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:08:31,497 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:08:31,561 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:24:07,939 [main] INFO appseConnect - The New Customer Name provided is: BFwt0fyW
+2022-06-13 22:24:08,019 [main] INFO appseConnect - The New Customer Org Name provided is: BFwt0fyW Inc.
+2022-06-13 22:24:08,106 [main] INFO appseConnect - The New Customer Email provided is: BFwt0fyW@yopmail.com
+2022-06-13 22:24:08,245 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:24:11,247 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:24:11,318 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:25:44,672 [main] INFO appseConnect - The New Customer Name provided is: hFxe2nEb
+2022-06-13 22:25:44,756 [main] INFO appseConnect - The New Customer Org Name provided is: hFxe2nEb Inc.
+2022-06-13 22:25:44,843 [main] INFO appseConnect - The New Customer Email provided is: hFxe2nEb@yopmail.com
+2022-06-13 22:25:44,987 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:25:47,996 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:25:48,069 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:32:01,108 [main] INFO appseConnect - The New Customer Name provided is: VyvlWl1s
+2022-06-13 22:32:01,182 [main] INFO appseConnect - The New Customer Org Name provided is: VyvlWl1s Inc.
+2022-06-13 22:32:01,259 [main] INFO appseConnect - The New Customer Email provided is: VyvlWl1s@yopmail.com
+2022-06-13 22:32:01,393 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:32:04,402 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:32:04,474 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:39:33,533 [main] INFO appseConnect - The New Customer Name provided is: vTHnmmH0
+2022-06-13 22:39:33,614 [main] INFO appseConnect - The New Customer Org Name provided is: vTHnmmH0 Inc.
+2022-06-13 22:39:33,696 [main] INFO appseConnect - The New Customer Email provided is: vTHnmmH0@yopmail.com
+2022-06-13 22:39:33,838 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:39:36,849 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:39:36,915 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-13 22:40:59,272 [main] INFO appseConnect - The New Customer Name provided is: qEpwBNco
+2022-06-13 22:40:59,346 [main] INFO appseConnect - The New Customer Org Name provided is: qEpwBNco Inc.
+2022-06-13 22:40:59,429 [main] INFO appseConnect - The New Customer Email provided is: qEpwBNco@yopmail.com
+2022-06-13 22:40:59,567 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-13 22:41:02,568 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-13 22:41:02,633 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-14 20:15:35,513 [main] INFO appseConnect - The New Customer Name provided is: 9Wi2tWFD
+2022-06-14 20:15:35,684 [main] INFO appseConnect - The New Customer Org Name provided is: 9Wi2tWFD Inc.
+2022-06-14 20:15:35,799 [main] INFO appseConnect - The New Customer Email provided is: 9Wi2tWFD@yopmail.com
+2022-06-14 20:15:35,971 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-14 20:15:38,974 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-14 20:15:39,060 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-14 20:53:17,680 [main] INFO appseConnect - The New Customer Name provided is: 417CVhuF
+2022-06-14 20:53:17,793 [main] INFO appseConnect - The New Customer Org Name provided is: 417CVhuF Inc.
+2022-06-14 20:53:17,924 [main] INFO appseConnect - The New Customer Email provided is: 417CVhuF@yopmail.com
+2022-06-14 20:53:18,126 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-14 20:53:21,128 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-14 20:53:21,254 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-14 21:03:43,377 [main] INFO appseConnect - The New Customer Name provided is: Gv3NIlJ5
+2022-06-14 21:03:43,459 [main] INFO appseConnect - The New Customer Org Name provided is: Gv3NIlJ5 Inc.
+2022-06-14 21:03:43,542 [main] INFO appseConnect - The New Customer Email provided is: Gv3NIlJ5@yopmail.com
+2022-06-14 21:03:43,682 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-14 21:03:46,694 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-14 21:03:46,765 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
