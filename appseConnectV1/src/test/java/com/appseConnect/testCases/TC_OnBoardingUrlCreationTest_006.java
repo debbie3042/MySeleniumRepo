@@ -153,6 +153,7 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		String pwdurl = "http://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+actcode+usid;
 		System.out.println("The Password Page URL is: " + pwdurl);
 		
+		//Commented text
 		//System.out.println("The URL is: " + "http://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+actcode+usid);
 		
 	}
