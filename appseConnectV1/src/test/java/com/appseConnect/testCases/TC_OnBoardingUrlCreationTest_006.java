@@ -51,10 +51,8 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		logger.info("The New Customer Email provided is: "+ newcustemail);
 		
 		
-		//Selecting the Country
-		//Declaring the dropdown element Country as an instance of the Select class
-		Select drpdwnCountry = new Select(driver.findElement(By.id("drpCountry")));
-		drpdwnCountry.selectByValue("FR");
+		signupnewcust.setNewCustCountry();
+		logger.info("The New Customer Country selected is: France");
 		
 		
 		//Clicking on the Sign Up button
@@ -66,12 +64,10 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		logger.info("Validation Started after clicking on the Sign Up button.....");
 		
 		
-		//Checking that the text Awesome is displayed after clicking on the Sign up Button
-		boolean res = driver.findElement(By.xpath("//h1[text()='Awesome!']")).isDisplayed();
+		boolean res = signupnewcust.checkTextAwesome();
 		
 		
-		//Checking that the "Back to Login" button is displayed after clicking on the Sign up Button
-		boolean res2 = driver.findElement(By.xpath("//button[text()='  Back to login ']")).isDisplayed();
+		boolean res2 = signupnewcust.checkTextBackToLogin();
 		
 		
 		//Verifying that both the text "Awesome" and the "Back to Login" Button are displayed
@@ -150,7 +146,7 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		String usid = StringUtils.substringAfter(urltext, amark);
 		System.out.println("The User Id is: " + usid);
 		
-		String pwdurl = "http://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+actcode+usid;
+		String pwdurl = "https://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+"&"+actcode+"&"+usid;
 		System.out.println("The Password Page URL is: " + pwdurl);
 		
 		//Commented text

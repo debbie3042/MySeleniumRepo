@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-14T21:03:33 IST" name="appseConnectV1" finished-at="2022-06-14T21:04:00 IST" duration-ms="26663">
+  <suite started-at="2022-06-17T11:16:33 IST" name="appseConnectV1" finished-at="2022-06-17T11:17:17 IST" duration-ms="43811">
     <groups>
     </groups>
-    <test started-at="2022-06-14T21:03:33 IST" name="appseConnect Test" finished-at="2022-06-14T21:04:00 IST" duration-ms="26663">
+    <test started-at="2022-06-17T11:16:33 IST" name="appseConnect Test" finished-at="2022-06-17T11:17:17 IST" duration-ms="43811">
       <class name="com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-14T21:03:33 IST" name="setUp" finished-at="2022-06-14T21:03:39 IST" duration-ms="5902" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-17T11:16:34 IST" name="setUp" finished-at="2022-06-17T11:16:44 IST" duration-ms="10640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-14T21:03:39 IST" name="addNewCustomer" finished-at="2022-06-14T21:03:59 IST" duration-ms="19887" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-17T11:16:44 IST" name="addNewCustomer" finished-at="2022-06-17T11:17:16 IST" duration-ms="32319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-14T21:03:59 IST" name="tearDown" finished-at="2022-06-14T21:04:00 IST" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006@73e9cf30]" started-at="2022-06-17T11:17:17 IST" name="tearDown" finished-at="2022-06-17T11:17:17 IST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
