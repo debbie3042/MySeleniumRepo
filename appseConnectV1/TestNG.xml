@@ -20,6 +20,7 @@
 			 <!--<class name="com.appseConnect.testCases.TC_PFDeployTest_004" />-->
 			 <!--<class name="com.appseConnect.testCases.TC_NewCustomerSignUpTest_005" />-->
 			 <class name="com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006" />
+			 <!--<class name="com.appseConnect.testCases.testttcc" />-->
 			 
 
 		</classes>

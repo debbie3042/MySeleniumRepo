@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 import com.appseConnect.pageObjects.LoginPage;
 import com.appseConnect.pageObjects.SignUpPage;
+import com.appseConnect.pageObjects.TestDataEmailPage;
 
 public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 {
@@ -64,6 +65,8 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		logger.info("Validation Started after clicking on the Sign Up button.....");
 		
 		
+		Thread.sleep(5000);
+		
 		boolean res = signupnewcust.checkTextAwesome();
 		
 		
@@ -91,67 +94,63 @@ public class TC_OnBoardingUrlCreationTest_006 extends BaseClass
 		}
 		
 		
-		//Opening a new Tab in Chrome
-		//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
-		//logger.info("New Chrome tab has been opened.");
-		
-		//Switching to the new Tab
-		//ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		//driver.switchTo().window(tabs.get(1));
-		
-		
 		//Opening Yopmail.com
 		driver.navigate().to("https://yopmail.com/en/");
 		System.out.println("Navigated to yopmail.com");
 		
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//input[@placeholder='Enter your inbox here' and @id='login' and @name='login']")).sendKeys(newcustemail);
-		System.out.println("Email provided in yopmail.com: "+ newcustemail);
-		
-		driver.findElement(By.xpath("//i[@class='material-icons-outlined f36']")).click();
+				
+		TestDataEmailPage testdataemail = new TestDataEmailPage(driver);
+
+		testdataemail.setYopmailEmail(newcustemail);
+		System.out.println("Email provided in yopmail.com is: "+ newcustemail);
+				
+						
+		testdataemail.clickYopmailEmailEnter();
 		System.out.println("Clicked after providing the email in yopmail.com");
-		
-		Thread.sleep(5000);
-		System.out.println("Waited for 5 seconds");
-		
+
+
+		Thread.sleep(2000);
+		System.out.println("Waited for 2 seconds");
+
 		//Switching to the iframe
 		driver.switchTo().frame("ifinbox");
+				
 		
-		driver.findElement(By.xpath("//button[@class='lm']/div/span[text()='APPSeCONNECT']//ancestor::button[@class='lm']")).click();
+		testdataemail.clickYopmailEmailAec();
 		System.out.println("Clicked on the email in the left");
-		
+
 		//After completing the operation inside the iframe, again returning back to the main window
 		driver.switchTo().defaultContent();
-		
+
 		//Switching to the other iframe
-		driver.switchTo().frame("ifmail");
-		
-		String usermaildata = driver.findElement(By.xpath("//strong/strong[1]")).getText();
+		driver.switchTo().frame("ifmail");		
+				
+		String usermaildata = testdataemail.getTextYopmailEmailAec();
 		System.out.println("The User Email is: "+ usermaildata);
-		
-		String userpwddata = driver.findElement(By.xpath("//strong/strong[2]")).getText();
+
+		String userpwddata = testdataemail.getTextYopmailPwdAec();
 		System.out.println("The User Password is: "+ userpwddata);
-		
-		String urltext = driver.findElement(By.partialLinkText("activationCode")).getText();
+
+		String urltext = testdataemail.getTextYopmailActCodeUrlAec();
 		System.out.println("The url Text is: "+ urltext);
-		
+				
 		String qmark = "?";
-		
+
 		String amark = "&";
-		
+
 		String actcode = StringUtils.substringBetween(urltext, qmark, amark);
 		System.out.println("The Activation Code is: " + actcode);
-		
+
 		String usid = StringUtils.substringAfter(urltext, amark);
 		System.out.println("The User Id is: " + usid);
-		
+
 		String pwdurl = "https://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+"&"+actcode+"&"+usid;
 		System.out.println("The Password Page URL is: " + pwdurl);
-		
-		//Commented text
-		//System.out.println("The URL is: " + "http://devportal.insync.pro/Account/SetPassword?userMail="+usermaildata+"&tempSecret="+userpwddata+actcode+usid);
-		
+				
+				
+				
 	}
 
 

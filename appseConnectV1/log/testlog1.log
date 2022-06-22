@@ -242,3 +242,49 @@
 2022-06-17 11:16:49,327 [main] INFO appseConnect - The Sign Up button has been clicked.
 2022-06-17 11:16:52,341 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
 2022-06-17 11:16:52,405 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-21 20:34:37,654 [main] INFO appseConnect - The New Customer Name provided is: ot9MRERc
+2022-06-21 20:34:37,732 [main] INFO appseConnect - The New Customer Org Name provided is: ot9MRERc Inc.
+2022-06-21 20:34:37,808 [main] INFO appseConnect - The New Customer Email provided is: ot9MRERc@yopmail.com
+2022-06-21 20:34:37,903 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-21 20:34:37,951 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-21 20:34:40,952 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-21 20:36:06,357 [main] INFO appseConnect - The New Customer Name provided is: ITt2Xyfk
+2022-06-21 20:36:06,434 [main] INFO appseConnect - The New Customer Org Name provided is: ITt2Xyfk Inc.
+2022-06-21 20:36:06,513 [main] INFO appseConnect - The New Customer Email provided is: ITt2Xyfk@yopmail.com
+2022-06-21 20:36:06,609 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-21 20:36:06,669 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-21 20:36:09,684 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-21 20:36:09,759 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-21 20:42:34,992 [main] INFO appseConnect - The New Customer Name provided is: YvkndYci
+2022-06-21 20:42:35,070 [main] INFO appseConnect - The New Customer Org Name provided is: YvkndYci Inc.
+2022-06-21 20:42:35,148 [main] INFO appseConnect - The New Customer Email provided is: YvkndYci@yopmail.com
+2022-06-21 20:42:35,239 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-21 20:42:35,301 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-21 20:42:38,304 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-21 20:42:38,377 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-21 20:50:34,682 [main] INFO appseConnect - The New Customer Name provided is: FbwAiuGj
+2022-06-21 20:50:34,760 [main] INFO appseConnect - The New Customer Org Name provided is: FbwAiuGj Inc.
+2022-06-21 20:50:34,875 [main] INFO appseConnect - The New Customer Email provided is: FbwAiuGj@yopmail.com
+2022-06-21 20:50:34,974 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-21 20:50:35,031 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-21 20:50:38,046 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-21 20:50:38,105 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
+2022-06-22 17:49:32,737 [main] INFO appseConnect - The New Customer Name provided is: BKeIvzfd
+2022-06-22 17:49:32,822 [main] INFO appseConnect - The New Customer Org Name provided is: BKeIvzfd Inc.
+2022-06-22 17:49:32,919 [main] INFO appseConnect - The New Customer Email provided is: BKeIvzfd@yopmail.com
+2022-06-22 17:49:33,033 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-22 17:49:33,096 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-22 17:49:36,106 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-22 17:50:05,816 [main] INFO appseConnect - The New Customer Name provided is: JI4kndwY
+2022-06-22 17:50:05,909 [main] INFO appseConnect - The New Customer Org Name provided is: JI4kndwY Inc.
+2022-06-22 17:50:06,008 [main] INFO appseConnect - The New Customer Email provided is: JI4kndwY@yopmail.com
+2022-06-22 17:50:06,123 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-22 17:50:06,178 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-22 17:50:09,181 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-22 17:54:48,856 [main] INFO appseConnect - The New Customer Name provided is: f3m6kroc
+2022-06-22 17:54:48,952 [main] INFO appseConnect - The New Customer Org Name provided is: f3m6kroc Inc.
+2022-06-22 17:54:49,057 [main] INFO appseConnect - The New Customer Email provided is: f3m6kroc@yopmail.com
+2022-06-22 17:54:49,179 [main] INFO appseConnect - The New Customer Country selected is: France
+2022-06-22 17:54:49,242 [main] INFO appseConnect - The Sign Up button has been clicked.
+2022-06-22 17:54:52,244 [main] INFO appseConnect - Validation Started after clicking on the Sign Up button.....
+2022-06-22 17:54:52,319 [main] INFO appseConnect - Assertion is True and New Customer has been created successfully.
