@@ -78,6 +78,8 @@ public class TC_NewCustomerSignUpTest_005 extends BaseClass
 			Assert.assertTrue(true);
 			
 			logger.info("Assertion is True and New Customer has been created successfully.");
+			
+			logger.info("The Email of the created Customer is: " + newcustemail);
 		}
 		
 		

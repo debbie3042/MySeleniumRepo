@@ -83,5 +83,11 @@ public class ReadConfig {
 			String edgepath = pro.getProperty("edgepath");
 			return edgepath;
 		}
+		
+		public String getUserOnBoardURL()
+		{
+			String onboardurl = pro.getProperty("newUserOnBoardURL");
+			return onboardurl;
+		}
 
 }

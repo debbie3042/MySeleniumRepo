@@ -14,12 +14,13 @@
 		<!--  <parameter name="browser" value="ie" />-->
 		
 		<classes>
-			<!-- <class name="com.appseConnect.testCases.TC_LoginTest_001" />-->
+			 <!--<class name="com.appseConnect.testCases.TC_LoginTest_001" />-->
 			<!--<class name="com.appseConnect.testCases.TC_LoginTestDDT_002" />-->
 			 <!--<class name="com.appseConnect.testCases.TC_PFListingPageTest_003" />-->
 			 <!--<class name="com.appseConnect.testCases.TC_PFDeployTest_004" />-->
 			 <!--<class name="com.appseConnect.testCases.TC_NewCustomerSignUpTest_005" />-->
-			 <class name="com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006" />
+			 <!--<class name="com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006" />-->
+			 <class name="com.appseConnect.testCases.TC_UserOnBoardingSetPassword_001" />
 			 <!--<class name="com.appseConnect.testCases.testttcc" />-->
 			 
 

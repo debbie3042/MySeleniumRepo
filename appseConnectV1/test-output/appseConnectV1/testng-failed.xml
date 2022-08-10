@@ -7,13 +7,20 @@
   <test thread-count="5" name="appseConnect Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006">
+      <class name="com.appseConnect.testCases.TC_UserOnBoardingSetPassword_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="setPasswordAllElementsPresent"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appseConnect.testCases.TC_UserOnBoardingSetPassword_001 -->
+      <class name="com.appseConnect.testCases.TC_LoginTest_001">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="addNewCustomer"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.appseConnect.testCases.TC_OnBoardingUrlCreationTest_006 -->
+      </class> <!-- com.appseConnect.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- appseConnect Test(failed) -->
 </suite> <!-- Failed suite [appseConnectV1] -->

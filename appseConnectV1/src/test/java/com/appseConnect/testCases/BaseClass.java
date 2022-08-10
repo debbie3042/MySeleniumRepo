@@ -38,6 +38,9 @@ public class BaseClass {
 	//public String Password = "Efgh.1234";
 	public String Password = readconfig.getPassword();
 	
+	public String onBoardUrl = readconfig.getUserOnBoardURL();
+	
+	
 	//Creation of Driver Object
 	public static WebDriver driver;
 	
@@ -96,7 +99,7 @@ public class BaseClass {
 		//Maximize the Browser window
 		driver.manage().window().maximize();
 		
-		
+		System.out.println("The On Boarding URL is: " + onBoardUrl);
 	}
 	
 	
